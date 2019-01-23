@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="../assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/lightbox/css/lightbox.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/CreativeLinkEffects/css/component.css">
+    <link rel="stylesheet" href="../assets/CreativeLinkEffects/css/demo.css">
+    <link rel="stylesheet" href="../assets/CreativeLinkEffects/css/normalize.css">
+    <link rel="stylesheet" href="../assets/CreativeButtons/css/component.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../assets/IconHoverEffects/css/component.css">
+    <link rel="stylesheet" href="../assets/gliderjs/glider.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    
+    <nav id="" class="nav-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <a href="../index.html"><img class="logo" src="../assets/images/ak-logo_trsp.png" alt="logo"/></a>
+                </div>
+                <div class="col-9 text-right">
+                    <i class="fas fa-bars hamburger-menu" id="toggler"></i>
+                    <ul class="nav-list">
+                        <li>
+                            <madeup class="cl-effect-14">
+                                <a href="../index.html#about" class="nav-anchor">About</a>
+                            </madeup>
+                        </li>
+                        <li>
+                            <madeup class="cl-effect-14">
+                                <a href="portfolio.html" class="nav-anchor nav-active">My portfolio</a>
+                            </madeup>
+                        </li>
+                        <li>
+                            <madeup class="cl-effect-14">
+                                <a href="contact.html" class="nav-anchor">Contact</a>
+                            </madeup>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Menu items on smaller devices -->
+                <div class="col-12" id="menu">
+                    <ul class="nav-list-small">
+                        <li>
+                            <madeup class="">
+                                <a href="../index.html#about" class="nav-anchor">About</a>
+                            </madeup>
+                        </li>
+                        <li>
+                            <madeup class="">
+                                <a href="portfolio.html" class="nav-anchor nav-active">My portfolio</a>
+                            </madeup>
+                        </li>
+                        <li>
+                            <madeup class="">
+                                <a href="contact.html" class="nav-anchor">Contact</a>
+                            </madeup>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid portfolio-container text-center">
+        <div class="row">
+            <div class="col-12" data-aos="slide-up">
+                <h1 class="portfolio-title">My portfolio</h1>
+
+                <a class="tag-button" id="illToggle">Adobe Illustrator</a>
+                <a class="tag-button" id="psToggle">Adobe Photoshop</a>
+                <a class="tag-button" id="zbToggle">Autodesk Maya</a>
+            </div>
+        </div>
+
+        <div class="row" data-aos="slide-up">
+            <div class="col-12 skill-accordion text-left" id="GDtoggler">
+                <a name="gdskill" class="skill-anchor"></a><h2 class="skill-title">Graphic design</h2>
+                <i class="fas fa-caret-down accordion-caret"></i>
+            </div>
+            <div class="col-12 skill-content glider-contain" id="GD">
+                <div class="row glider1">
+
+                    <div class="ill">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/Capture.PNG"/>
+                            <a class="lightbox-toggler" href="../assets/images/Capture.PNG" data-lightbox="galerija-gd"><p class="gallery-card-text">David Carson tribute</p></a>
+                            <div class="gallery-card-tool">Adobe Illustrator</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="gallery-card">
+                            <i class="far fa-clock gallery-icon-soon"></i>
+                            <p class="gallery-card-icon-text">Coming Soon!</p>
+                            <div class="gallery-card-tool"></div>
+                            <div class="gallery-icon-mask"></div>
+                        </div>
+                    </div>
+					<div class="">
+                        <div class="gallery-card">
+                            <i class="far fa-clock gallery-icon-soon"></i>
+                            <p class="gallery-card-icon-text">Coming Soon!</p>
+                            <div class="gallery-card-tool"></div>
+                            <div class="gallery-icon-mask"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" aria-label="Previous" class="glider-prev gp1"><i class="fas fa-angle-left"></i></button>
+                <button role="button" aria-label="Next" class="glider-next gn1"><i class="fas fa-angle-right"></i></button>
+                <div role="tablist" class="dots"></div>
+
+            </div>
+        </div>
+
+        <div class="row" data-aos="slide-up">
+            <div class="col-12 skill-accordion text-left" id="CCtoggler">
+                <a name="ccskill" class="skill-anchor"></a><h2 class="skill-title">Character creation</h2>
+                <i class="fas fa-caret-down accordion-caret"></i>
+            </div>
+            <div class="col-12 skill-content glider-contain" id="CC">
+                <div class="row glider2">
+
+                    <div class="">
+                        <div class="gallery-card">
+                            <i class="far fa-clock gallery-icon-soon"></i>
+                            <p class="gallery-card-icon-text">Coming Soon!</p>
+                            <div class="gallery-card-tool"></div>
+                            <div class="gallery-icon-mask"></div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="gallery-card">
+                            <i class="far fa-clock gallery-icon-soon"></i>
+                            <p class="gallery-card-icon-text">Coming Soon!</p>
+                            <div class="gallery-card-tool"></div>
+                            <div class="gallery-icon-mask"></div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="gallery-card">
+                            <i class="far fa-clock gallery-icon-soon"></i>
+                            <p class="gallery-card-icon-text">Coming Soon!</p>
+                            <div class="gallery-card-tool"></div>
+                            <div class="gallery-icon-mask"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" aria-label="Previous" class="glider-prev gp2"><i class="fas fa-angle-left"></i></button>
+                <button role="button" aria-label="Next" class="glider-next gn2"><i class="fas fa-angle-right"></i></button>
+                <div role="tablist" class="dots"></div>
+
+            </div>
+        </div>
+
+        <div class="row" data-aos="slide-up">
+            <div class="col-12 skill-accordion text-left" id="D3toggler">
+                <a name="d3skill" class="skill-anchor"></a><h2 class="skill-title">3D modeling</h2>
+                <i class="fas fa-caret-down accordion-caret"></i>
+            </div>
+            <div class="col-12 skill-content glider-contain" id="D3">
+                <div class="row glider3">
+                    <div class="zb">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/td1.png"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/td1.png" data-lightbox="galerija-gd"><p class="gallery-card-text">Iron Man</p></a>
+                            <div class="gallery-card-tool">Autodesk Maya</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="gallery-card">
+                            <i class="far fa-clock gallery-icon-soon"></i>
+                            <p class="gallery-card-icon-text">Coming Soon!</p>
+                            <div class="gallery-card-tool"></div>
+                            <div class="gallery-icon-mask"></div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="gallery-card">
+                            <i class="far fa-clock gallery-icon-soon"></i>
+                            <p class="gallery-card-icon-text">Coming Soon!</p>
+                            <div class="gallery-card-tool"></div>
+                            <div class="gallery-icon-mask"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" aria-label="Previous" class="glider-prev gp3"><i class="fas fa-angle-left"></i></button>
+                <button role="button" aria-label="Next" class="glider-next gn3"><i class="fas fa-angle-right"></i></button>
+                <div role="tablist" class="dots"></div>
+
+            </div>
+        </div>
+
+        <div class="row" data-aos="slide-up">
+            <div class="col-12 skill-accordion text-left" id="PHtoggler">
+                <a name="phskill" class="skill-anchor"></a><h2 class="skill-title">Photography</h2>
+                <i class="fas fa-caret-down accordion-caret"></i>
+            </div>
+            <div class="col-12 skill-content glider-contain" id="PH">
+                <div class="row glider4">
+                    <div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph1.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph1.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">A kitten in the countryside</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+					<div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph4.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph4.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">Cat in the alley</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+					<div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph7.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph7.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">Gregory of Nin</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+					<div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph6.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph6.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">History and technology</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+					<div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph5.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph5.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">Aging</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+                    <div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph2.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph2.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">Unconditional</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+					<div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph3.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph3.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">Mateo</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+					<div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph9.jpeg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph9.jpeg" data-lightbox="galerija-gd"><p class="gallery-card-text">The riches</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+					<div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph8.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph8.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">Alone</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+					<div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph10.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph10.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">Embarrassment</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+					<div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph11.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph11.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">Embarrassment #2</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+					<div class="ps">
+                        <div class="gallery-card">
+                            <img class="gallery-image" src="../assets/images/port/ph12.jpg"/>
+                            <a class="lightbox-toggler" href="../assets/images/port/ph12.jpg" data-lightbox="galerija-gd"><p class="gallery-card-text">Embarrassment #3</p></a>
+                            <div class="gallery-card-tool">Adobe Photoshop</div>
+                            <div class="gallery-image-mask"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" aria-label="Previous" class="glider-prev gp4"><i class="fas fa-angle-left"></i></button>
+                <button role="button" aria-label="Next" class="glider-next gn4"><i class="fas fa-angle-right"></i></button>
+                <div role="tablist" class="dots"></div>
+
+            </div>
+        </div>
+
+        <div class="row" data-aos="slide-up">
+            <div class="col-12 skill-accordion text-left" id="WDtoggler">
+                <a name="wdskill" class="skill-anchor"></a><h2 class="skill-title">Web design</h2>
+                <i class="fas fa-caret-down accordion-caret"></i>
+            </div>
+            <div class="col-12 skill-content glider-contain" id="WD">
+                <div class="row glider5">
+                    <div class="">
+                        <div class="gallery-card">
+                            <i class="far fa-clock gallery-icon-soon"></i>
+                            <p class="gallery-card-icon-text">Coming Soon!</p>
+                            <div class="gallery-card-tool"></div>
+                            <div class="gallery-icon-mask"></div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="gallery-card">
+                            <i class="far fa-clock gallery-icon-soon"></i>
+                            <p class="gallery-card-icon-text">Coming Soon!</p>
+                            <div class="gallery-card-tool"></div>
+                            <div class="gallery-icon-mask"></div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="gallery-card">
+                            <i class="far fa-clock gallery-icon-soon"></i>
+                            <p class="gallery-card-icon-text">Coming Soon!</p>
+                            <div class="gallery-card-tool"></div>
+                            <div class="gallery-icon-mask"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <button role="button" aria-label="Previous" class="glider-prev gp5"><i class="fas fa-angle-left"></i></button>
+                <button role="button" aria-label="Next" class="glider-next gn5"><i class="fas fa-angle-right"></i></button>
+                <div role="tablist" class="dots"></div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid blackbg">
+        <div class="container">
+            <div class="row" data-aos="slide-up">
+                <div class="col-12 portfolio-contact" data-aos="zoom-in">
+                    <h1 class="portfolio-title2">Like what you see?</h1>
+                    <a class="btn btn-1 btn-1e btn-1-override" href="contact.html#form">Contact me</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="containter-fluid remove-margin-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <i class="fas fa-phone social-icon"></i>
+                        095/111-1111
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <i class="fas fa-envelope social-icon"></i>
+                        ak.ad@gmail.com
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                        <span class="social-icon">Follow me:</span> 
+                        <a href=""><i class="fab fa-facebook-f social-icon"></i></a>
+                        <a href=""><i class="fab fa-instagram social-icon"></i></a>
+                        <a href=""><i class="fab fa-linkedin-in social-icon"></i></a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    &copy 2019 All rights reserved
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/bootstrap/jquery.min.js"></script>
+	<script src="../assets/bootstrap/popper.min.js"></script>
+    <script src="../assets/bootstrap/bootstrap.min.js"></script>
+    <script src="../assets/lightbox/js/lightbox.js"></script>
+    <script src="../assets/CreativeLinkEffects/js/modernizr.custom.js"></script>
+    <script src="../assets/CreativeButtons/js/modernizr.custom.js"></script>
+    <script src="../assets/CreativeButtons/js/classie.js"></script>
+    <script src="../assets/IconHoverEffects/js/component.js"></script>
+    <script src="../assets/IconHoverEffects/js/modernizr.custom.js"></script>
+    <script src="../assets/gliderjs/glider.min.js"></script>
+    <script>
+        window.onscroll = () => {
+            const nav = document.querySelector('#navbar');
+            if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+        };
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
+    <script>
+        $( "#toggler" ).click(function() {
+            $( "#menu" ).toggle( "slow", function() {
+                // Animation complete.
+            });
+        });
+    </script>
+    <script>
+        $( "#GDtoggler" ).click(function() {
+            $( "#GD" ).toggle( "slow", function() {
+                // Animation complete.
+            });
+        });
+    </script>
+    <script>
+        $( "#CCtoggler" ).click(function() {
+            $( "#CC" ).toggle( "slow", function() {
+                // Animation complete.
+            });
+        });
+    </script>
+    <script>
+        $( "#D3toggler" ).click(function() {
+            $( "#D3" ).toggle( "slow", function() {
+                // Animation complete.
+            });
+        });
+    </script>
+    <script>
+        $( "#PHtoggler" ).click(function() {
+            $( "#PH" ).toggle( "slow", function() {
+                // Animation complete.
+            });
+        });
+    </script>
+    <script>
+        $( "#WDtoggler" ).click(function() {
+            $( "#WD" ).toggle( "slow", function() {
+                // Animation complete.
+            });
+        });
+    </script>
+    <script>
+        new Glider(document.querySelector('.glider1'), {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            draggable: true,
+            dots: '.dots',
+            arrows: {
+                prev: '.gp1',
+                next: '.gn1'
+            },
+            responsive: [
+                {
+                  // screens greater than >= 775px
+                  breakpoint: 575,
+                  settings: {
+                    // Set to `auto` and provide item width to adjust to viewport
+                    slidesToShow: 'auto',
+                    slidesToScroll: 'auto',
+                    itemWidth: 150
+                  }
+                },
+                {
+                    // screens greater than >= 768px
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    // screens greater than >= 1024px
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                }
+            ]
+        });
+
+        new Glider(document.querySelector('.glider2'), {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            draggable: true,
+            dots: '.dots',
+            arrows: {
+                prev: '.gp2',
+                next: '.gn2'
+            },
+            responsive: [
+                {
+                  // screens greater than >= 775px
+                  breakpoint: 575,
+                  settings: {
+                    // Set to `auto` and provide item width to adjust to viewport
+                    slidesToShow: 'auto',
+                    slidesToScroll: 'auto',
+                    itemWidth: 150
+                  }
+                },
+                {
+                    // screens greater than >= 768px
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    // screens greater than >= 1024px
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                }
+            ]
+        });
+
+        new Glider(document.querySelector('.glider3'), {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            draggable: true,
+            dots: '.dots',
+            arrows: {
+                prev: '.gp3',
+                next: '.gn3'
+            },
+            responsive: [
+                {
+                  // screens greater than >= 775px
+                  breakpoint: 575,
+                  settings: {
+                    // Set to `auto` and provide item width to adjust to viewport
+                    slidesToShow: 'auto',
+                    slidesToScroll: 'auto',
+                    itemWidth: 150
+                  }
+                },
+                {
+                    // screens greater than >= 768px
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    // screens greater than >= 1024px
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                }
+            ]
+        });
+
+        new Glider(document.querySelector('.glider4'), {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            draggable: true,
+            dots: '.dots',
+            arrows: {
+                prev: '.gp4',
+                next: '.gn4'
+            },
+            responsive: [
+                {
+                  // screens greater than >= 775px
+                  breakpoint: 575,
+                  settings: {
+                    // Set to `auto` and provide item width to adjust to viewport
+                    slidesToShow: 'auto',
+                    slidesToScroll: 'auto',
+                    itemWidth: 150
+                  }
+                },
+                {
+                    // screens greater than >= 768px
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    // screens greater than >= 1024px
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                }
+            ]
+        });
+
+        new Glider(document.querySelector('.glider5'), {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            draggable: true,
+            dots: '.dots',
+            arrows: {
+                prev: '.gp5',
+                next: '.gn5'
+            },
+            responsive: [
+                {
+                  // screens greater than >= 775px
+                  breakpoint: 575,
+                  settings: {
+                    // Set to `auto` and provide item width to adjust to viewport
+                    slidesToShow: 'auto',
+                    slidesToScroll: 'auto',
+                    itemWidth: 150
+                  }
+                },
+                {
+                    // screens greater than >= 768px
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    // screens greater than >= 1024px
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3
+                    }
+                }
+            ]
+        });
+    </script>
+
+    <script>
+        $( "#illToggle" ).click(function() {
+            $( ".ill" ).toggle( "slow", function() {
+                // Animation complete.
+            });
+        });
+
+        $(document).ready(function () {
+            $('#illToggle').on('click', function () {
+                $(this).toggleClass('ttactive');
+            });
+        });
+
+
+        $( "#psToggle" ).click(function() {
+            $( ".ps" ).toggle( "slow", function() {
+                // Animation complete.
+            });
+        });
+
+        $(document).ready(function () {
+            $('#psToggle').on('click', function () {
+                $(this).toggleClass('ttactive');
+            });
+        });
+
+
+        $( "#zbToggle" ).click(function() {
+            $( ".zb" ).toggle( "slow", function() {
+                // Animation complete.
+            });
+        });
+
+        $(document).ready(function () {
+            $('#zbToggle').on('click', function () {
+                $(this).toggleClass('ttactive');
+            });
+        });
+
+    </script>
+
+    <script>
+        $('a[href^="#"]').click(function () {
+        $('html, body').animate({
+            scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+        }, 500);
+
+        return false;
+        });
+    </script>
+</body>
+</html>
